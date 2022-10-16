@@ -5,7 +5,7 @@ using namespace std;
 int main() {
     neos::thread_handle th1 ([](){cout<<"th1"<<endl;});
     neos::Thread::SetScheduling(th1,1,1);
-    neos::Thread::SetCpuid(th1, 3);
+    neos::Thread::SetCpuid(th1, 7);
     cout<<neos::Thread::GetCpuid(th1)<<endl;
     cout<<neos::Thread::GetScheduling(th1)<<endl;
     th1.join();

@@ -48,7 +48,6 @@ int Thread::GetScheduling(thread_handle &th) {
   }
   std::cerr << "Failed to set Thread scheduling :" << std::strerror(errno)
             << std::endl;
-
   return -1;
 }
 }  // namespace neos
