@@ -1,1 +1,0 @@
-/usr/bin/g++ -static-libstdc++ -static-libgcc -O3 -flto -g -g CMakeFiles/test.dir/src/thread/thread.cpp.o CMakeFiles/test.dir/test/thread_test.cpp.o -o bin/test   -L/libs 

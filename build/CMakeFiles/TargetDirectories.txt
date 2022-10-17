@@ -1,3 +1,0 @@
-/home/nother/BasicTools/build/CMakeFiles/threadtest.dir
-/home/nother/BasicTools/build/CMakeFiles/edit_cache.dir
-/home/nother/BasicTools/build/CMakeFiles/rebuild_cache.dir
