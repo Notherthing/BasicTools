@@ -8,7 +8,7 @@ PROJECT(BasicTools)
 SET(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)     # Require C++17 support
 
-SET(CMAKE_CXX_FLAGS "-static-libstdc++ -static-libgcc -O3 -flto -g") 
+SET(CMAKE_CXX_FLAGS "-static-libstdc++ -static-libgcc  -fpermissive -O3 -flto -g") 
 
 find_package(Threads)
 
